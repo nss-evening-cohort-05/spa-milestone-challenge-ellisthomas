@@ -1,1 +1,3 @@
-console.log("DOM");
+var CarLot = (function () {
+	// event listeners will go here
+});
