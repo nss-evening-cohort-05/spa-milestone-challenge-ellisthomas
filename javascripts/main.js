@@ -1,3 +1,5 @@
+var CarLot = (function() {
+	
 function listInventory (cars) {
 
                 var carList = document.getElementById("car-list");
@@ -44,6 +46,7 @@ function gridInventory (cars) {
 CarLot.loadInventory(listInventory);
 CarLot.loadInventory(gridInventory);
 
+})();
 
 
 
