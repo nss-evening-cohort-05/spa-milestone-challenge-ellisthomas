@@ -6,10 +6,24 @@ body {
 	background-color: slategray;
 }
 
+/*body {
+	background-image: url("http://www.dodge.com/assets/images/homepage/poster/All-Cars-Lineup-Sky.jpg");
+}*/
+
 #car-grid .carCard {
 	border: 1px solid black;
 	padding: 5px;
 	margin: 5px;
 	display: inline-block;
 	width: 30%;
+}
+
+.clicked {
+	border: 5px dotted red;
+}
+
+
+.carPic {
+	width: 100%;
+
 }

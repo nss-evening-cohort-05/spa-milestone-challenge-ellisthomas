@@ -5,21 +5,24 @@
       "model": "Challenger",
       "year": "2017",
       "price": "49999",
-      "description": ""
+      "image": "http://buyersguide.caranddriver.com/media/assets/submodel/7889.jpg",
+      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
     },
     {
     	"make": "Dodge",
     	"model": "Charger",
-    	"year": "2016",
-    	"price": "35999",
-    	"description": ""
+    	"year": "2017",
+    	"price": "55999",
+    	"image": "http://buyersguide.caranddriver.com/media/assets/submodel/7891.jpg",
+    	"description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
     },
     {
     	"make": "Dodge",
     	"model": "Durango",
     	"year": "2018",
-    	"price": "55999",
-    	"description": ""
+    	"price": "85999",
+    	"image": "http://buyersguide.caranddriver.com/media/assets/submodel/8104.jpg",
+    	"description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
     }
   ]
 }
