@@ -6,7 +6,7 @@ var CarLot = (function() {
 
             inventoryLoader.addEventListener("load", function() {
                 privateCars = JSON.parse(this.responseText).cars;
-                console.log("privateCars", privateCars);
+                // console.log("privateCars", privateCars);
                 callback(privateCars);
             });
 
