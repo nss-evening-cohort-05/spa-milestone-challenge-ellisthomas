@@ -24,7 +24,7 @@ function gridInventory (cars) {
                     carString += `<h5>${currentCar.year}</h5>`;
                     carString += `<h5>${currentCar.price}</h5>`;
                     carString += `<img class="carPic" src="${currentCar.image}">`;
-                    carString += `<h6 class="description">${currentCar.description}</h6>`;
+                    carString += `<p class="description">${currentCar.description}</p>`;
                     carString += `</div>`;
                 }
 
