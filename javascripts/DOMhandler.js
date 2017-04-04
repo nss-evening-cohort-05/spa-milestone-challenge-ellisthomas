@@ -12,8 +12,7 @@ window.addEventListener("click", function(e) {
         
 
         for (var j = 0; j < selectedCard.length; j++) {
-            selectedCard[j].classList.value = "carCard";
-            
+            selectedCard[j].classList.value = "carCard";            
         }
         if (e.target.classList.value === "carCard") {
             e.target.classList.add("add-border", "add-background");
@@ -27,17 +26,20 @@ window.addEventListener("click", function(e) {
     inputText.focus();
 });
 
-// inputText.addEventListener("keypress", function(event) {
-//     console.log("event", event);
-//     var editDescription = selectedDescription
-//     editDescription.innerHTML = "";
-//     var copyText = inputText.value;
-//     editDescription.innerHTML += copyText;
-//     console.log(editDescription);
-// });
+inputText.addEventListener("keypress", function(e) {
+    var editDescription = selectedCard[0].children[5];
+    editDescription.innerHTML = "";
+    var copyText = inputText.value;
+    editDescription.innerHTML += copyText;
+});
+    console.log(selectedCard);
 
-
-
+window.addEventListener("keyup", function(e) {
+    if (event.keyCode === 13) {
+        inputText.value = "";
+        return false;
+    }
+});
 
 
 
