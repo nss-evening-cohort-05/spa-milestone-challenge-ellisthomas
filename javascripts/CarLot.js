@@ -14,7 +14,7 @@ var CarLot = (function() {
             inventoryLoader.send();
         }
     }
-})();
+})(CarLot || {});
 
 
 

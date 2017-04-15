@@ -1,6 +1,6 @@
-var CarLot = (function() {
+var CarLot = (function(oldCarLot) {
 	
-function listInventory (cars) {
+oldCarLot.listInventory = function (cars) {
 
                 var carList = document.getElementById("car-list");
                 var carString = "";
@@ -10,7 +10,7 @@ function listInventory (cars) {
                 carList.innerHTML = carString;
 }
 
-function gridInventory (cars) {
+oldCarLot.gridInventory = function (cars) {
 
                 var gridList = document.getElementById("car-grid");
                 var carString = "";
@@ -30,10 +30,12 @@ function gridInventory (cars) {
 
                 gridList.innerHTML = carString;
 }
-CarLot.loadInventory(listInventory);
-CarLot.loadInventory(gridInventory);
+CarLot.loadInventory(CarLot.listInventory);
+CarLot.loadInventory(CarLot.gridInventory);
 
-})();
+return oldCarLot;
+
+})(CarLot || {});
 
 
 
