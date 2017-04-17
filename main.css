@@ -1,0 +1,55 @@
+h1 {
+	font-family: 'Khand', sans-serif;
+	text-align: center;
+	color: white;
+}
+body {
+	background-color: slategray;
+	background-image: url("https://s-media-cache-ak0.pinimg.com/originals/de/0d/7f/de0d7f19a909bf5a3a80025f2ae2ad62.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+footer {
+	position: fixed bottom;
+	text-align: center;
+	color: white;
+	font-size: 2em;
+}
+.navbar {
+	/*background-image: url("https://cdn.shutterstock.com/shutterstock/videos/14042444/thumb/1.jpg");*/
+	/*background-image: url("http://hotdealelectronics.com/wp-content/uploads/2016/03/banner1.jpg");*/
+}
+.carCard {
+	border: 1px solid black;
+	padding: 5px;
+	margin: 50px 20px 5px;
+	display: inline-block;
+	width: 30%;
+	background-color: white;
+	opacity: 0.9;
+}
+
+.brand {
+	height: 60px;
+	width: 80px;
+}
+.clicked {
+	border: 5px dotted red;
+}
+
+
+.carPic {
+	width: 100%;
+
+}
+
+
+
+.add-border {
+	border: 15px solid black;
+}
+
+.add-background {
+	background-color: slategray;
+}

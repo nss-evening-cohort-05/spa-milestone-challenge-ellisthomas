@@ -1,0 +1,28 @@
+{
+  "cars": [
+    {
+      "make": "Dodge",
+      "model": "Challenger",
+      "year": "2017",
+      "price": "$49999",
+      "image": "http://buyersguide.caranddriver.com/media/assets/submodel/7889.jpg",
+      "description": "One Owner, NO Accident History, CERTIFIED!!! Engine Sold Separtely"
+    },
+    {
+    	"make": "Dodge",
+    	"model": "Charger",
+    	"year": "2017",
+    	"price": "$55999",
+    	"image": "http://buyersguide.caranddriver.com/media/assets/submodel/7891.jpg",
+    	"description": "It delivers an exhilarating ride without compromising safety and comfort! Top features include rain sensing wipers!"
+    },
+    {
+    	"make": "Dodge",
+    	"model": "Durango",
+    	"year": "2018",
+    	"price": "$85999",
+    	"image": "http://buyersguide.caranddriver.com/media/assets/submodel/8104.jpg",
+    	"description": "Third row seating for the family with a monsterous HEMI V8 so you stay at the gas pump!!"
+    }
+  ]
+}
